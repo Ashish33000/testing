@@ -1,0 +1,101 @@
+#navbar{
+    
+    border: 1px red solid;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(15, 19, 17);
+}
+#navbar>a{
+    text-decoration: none;
+    font-size: 2 rem;
+    font-weight: bold;
+    color: azure;
+}
+#signup,#deleteP,#post{
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-top: 50px;
+    width:400px;   
+}
+#signup input,#deleteP input,#post input{
+    margin:10px 10% ;
+    font-size: 2rem;
+    border:2px red solid;
+    border-radius: 5px;
+    
+}
+input[type=text],[type=password],[type=tel]{    
+    width: 80%;
+    margin: auto;
+}
+#signup button,#deleteP button,#post button{
+    font-size: 2rem;
+    margin: 0px 30%;
+    padding: 10px 20px;
+    border: 0px;
+    background-color: rgb(77, 77, 206);
+    color: white;
+    border-radius: 5px;
+}
+#signup button:hover,#deleteP button:hover,#post button:hover{
+    background-color: blueviolet;
+}
+/* /login */
+#login{
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-top: 50px;
+    width:400px;   
+}
+#login input{
+    margin:10px 10% ;
+    font-size: 2rem;
+    border:2px red solid;
+    border-radius: 5px;
+    
+}
+
+#login button{
+    font-size: 2rem;
+    margin: 0px 30%;
+    padding: 10px 20px;
+    border: 0px;
+    background-color: rgb(77, 77, 206);
+    color: white;
+    border-radius: 5px;
+}
+#login button:hover{
+    background-color: blueviolet;
+}
+#login a{
+    text-decoration: none;
+}
+
+#post{
+    margin-top: 50px;;
+}
+
+#deleteP{
+    margin-top: 50px;
+}
+#container{
+    width: 80%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:50px
+}
+#container>div{
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#Container img{
+   width:50%;
+   height: 200px;
+}
+#Container>button{
+    padding: 10px 10px;
+ }
